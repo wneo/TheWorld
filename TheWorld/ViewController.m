@@ -9,6 +9,12 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet SKView *skView;
+@property (weak, nonatomic) IBOutlet UIImageView *gameLogo;
+@property (weak, nonatomic) IBOutlet UIImageView *gameName;
+@property (weak, nonatomic) IBOutlet UIButton *archerButton;
+@property (weak, nonatomic) IBOutlet UIButton *warriorButton;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *loadingProcessIndicator;
 
 @end
 
@@ -17,7 +23,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	[self.loadingProcessIndicator startAnimating];
+	//SKView *spriteView = (SKView *)self.view;
+	//spriteView.showsFPS = YES;
+	//spriteView.showsNodeCount = YES;
+	//spriteView.showsDrawCount = YES;
 }
 
 - (void)didReceiveMemoryWarning
