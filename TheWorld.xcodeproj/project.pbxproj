@@ -22,6 +22,13 @@
 		B55D563F185A164300E60694 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B55D563D185A164300E60694 /* InfoPlist.strings */; };
 		B55D5641185A164300E60694 /* TheWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B55D5640185A164300E60694 /* TheWorldTests.m */; };
 		B55D564B185A17A100E60694 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D564A185A17A100E60694 /* SpriteKit.framework */; };
+		B5C75CE2185B2A7600B11164 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C75CE1185B2A7600B11164 /* Player.m */; };
+		B5C75CE7185B351F00B11164 /* iconWarrior_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C75CE3185B351F00B11164 /* iconWarrior_blue.png */; };
+		B5C75CE8185B351F00B11164 /* iconWarrior_green.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C75CE4185B351F00B11164 /* iconWarrior_green.png */; };
+		B5C75CE9185B351F00B11164 /* iconWarrior_pink.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C75CE5185B351F00B11164 /* iconWarrior_pink.png */; };
+		B5C75CEA185B351F00B11164 /* iconWarrior_red.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C75CE6185B351F00B11164 /* iconWarrior_red.png */; };
+		B5C75CEC185B374500B11164 /* lives.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C75CEB185B374500B11164 /* lives.png */; };
+		B5C75CEF185B37E900B11164 /* TheWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C75CEE185B37E900B11164 /* TheWorldScene.m */; };
 		B5CDBC09185A2A05004DB116 /* logo_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5CDBC06185A2A05004DB116 /* logo_background.jpg */; };
 		B5CDBC0A185A2A05004DB116 /* logo_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CDBC07185A2A05004DB116 /* logo_background.png */; };
 		B5CDBC0B185A2A05004DB116 /* logo_head.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CDBC08185A2A05004DB116 /* logo_head.png */; };
@@ -61,6 +68,15 @@
 		B55D563E185A164300E60694 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B55D5640185A164300E60694 /* TheWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheWorldTests.m; sourceTree = "<group>"; };
 		B55D564A185A17A100E60694 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		B5C75CE0185B2A7600B11164 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		B5C75CE1185B2A7600B11164 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		B5C75CE3185B351F00B11164 /* iconWarrior_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconWarrior_blue.png; sourceTree = "<group>"; };
+		B5C75CE4185B351F00B11164 /* iconWarrior_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconWarrior_green.png; sourceTree = "<group>"; };
+		B5C75CE5185B351F00B11164 /* iconWarrior_pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconWarrior_pink.png; sourceTree = "<group>"; };
+		B5C75CE6185B351F00B11164 /* iconWarrior_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconWarrior_red.png; sourceTree = "<group>"; };
+		B5C75CEB185B374500B11164 /* lives.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lives.png; sourceTree = "<group>"; };
+		B5C75CED185B37E900B11164 /* TheWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheWorldScene.h; sourceTree = "<group>"; };
+		B5C75CEE185B37E900B11164 /* TheWorldScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheWorldScene.m; sourceTree = "<group>"; };
 		B5CDBC06185A2A05004DB116 /* logo_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_background.jpg; sourceTree = "<group>"; };
 		B5CDBC07185A2A05004DB116 /* logo_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_background.png; sourceTree = "<group>"; };
 		B5CDBC08185A2A05004DB116 /* logo_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_head.png; sourceTree = "<group>"; };
@@ -184,6 +200,11 @@
 		B5CDBC05185A2A05004DB116 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				B5C75CEB185B374500B11164 /* lives.png */,
+				B5C75CE3185B351F00B11164 /* iconWarrior_blue.png */,
+				B5C75CE4185B351F00B11164 /* iconWarrior_green.png */,
+				B5C75CE5185B351F00B11164 /* iconWarrior_pink.png */,
+				B5C75CE6185B351F00B11164 /* iconWarrior_red.png */,
 				B5CDBC06185A2A05004DB116 /* logo_background.jpg */,
 				B5CDBC07185A2A05004DB116 /* logo_background.png */,
 				B5CDBC08185A2A05004DB116 /* logo_head.png */,
@@ -215,6 +236,10 @@
 			children = (
 				B5CDBC10185A2EBC004DB116 /* MultiplayerLayeredCharacterScene.h */,
 				B5CDBC11185A2EBC004DB116 /* MultiplayerLayeredCharacterScene.m */,
+				B5C75CE0185B2A7600B11164 /* Player.h */,
+				B5C75CE1185B2A7600B11164 /* Player.m */,
+				B5C75CED185B37E900B11164 /* TheWorldScene.h */,
+				B5C75CEE185B37E900B11164 /* TheWorldScene.m */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -306,10 +331,15 @@
 			files = (
 				B55D562E185A164300E60694 /* Images.xcassets in Resources */,
 				B55D5620185A164300E60694 /* InfoPlist.strings in Resources */,
+				B5C75CE9185B351F00B11164 /* iconWarrior_pink.png in Resources */,
 				B5CDBC0B185A2A05004DB116 /* logo_head.png in Resources */,
+				B5C75CEC185B374500B11164 /* lives.png in Resources */,
 				B5CDBC0A185A2A05004DB116 /* logo_background.png in Resources */,
+				B5C75CE7185B351F00B11164 /* iconWarrior_blue.png in Resources */,
 				B5CDBC09185A2A05004DB116 /* logo_background.jpg in Resources */,
 				B55D5629185A164300E60694 /* Main.storyboard in Resources */,
+				B5C75CE8185B351F00B11164 /* iconWarrior_green.png in Resources */,
+				B5C75CEA185B351F00B11164 /* iconWarrior_red.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,10 +359,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55D562C185A164300E60694 /* ViewController.m in Sources */,
+				B5C75CEF185B37E900B11164 /* TheWorldScene.m in Sources */,
 				B5CDBC18185A31F4004DB116 /* ParallaxSprite.m in Sources */,
 				B55D5626185A164300E60694 /* AppDelegate.m in Sources */,
 				B5CDBC12185A2EBC004DB116 /* MultiplayerLayeredCharacterScene.m in Sources */,
 				B5CDBC15185A31AE004DB116 /* ArtificialIntelligence.m in Sources */,
+				B5C75CE2185B2A7600B11164 /* Player.m in Sources */,
 				B55D5622185A164300E60694 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
